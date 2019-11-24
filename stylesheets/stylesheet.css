@@ -1,0 +1,166 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: rgba(246, 246, 246, 0.884);
+  font-size: 100px;
+  text-align: right;
+  font-family: 'Permanent Marker', cursive;
+  font-weight: normal;
+  margin: 0 50px 0 0;
+}
+
+header {
+  background-color: rgba(14, 6, 44, 0.425);
+  background-image: url(../images/panda-bg.jpg);
+  transition: 4s ease-in-out;
+  background-blend-mode: color;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 440pt;
+}
+
+header:hover {
+  background-image: url(../images/tiger.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 440pt;
+}
+
+.scroll {
+  width: 45px;
+  height: 45px;
+  box-shadow: none;
+  margin: 3% 0 0 48%;
+}
+
+.scroll:hover {
+  width: 50px;
+  height: 50px;
+  box-shadow: none;
+
+}
+
+section {
+  background-image: url(../images/giraffe.jpg);
+  background-blend-mode: color;
+  background-color: rgba(252, 247, 245, 0.774);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.zoos {
+  font-weight: normal;
+  font-size: 140px;
+  color: rgba(236, 104, 2, 0.897);
+}
+
+h6 {
+  font-size: 40px;
+  text-align: right;
+  font-family: 'Caveat', cursive;
+  font-weight: normal;
+  color: rgb(230, 230, 230);
+  margin: 0 55px 0 0;
+}
+
+.link {
+  text-align: center;
+  margin-top: 180px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 30px;
+  color: rgb(237, 237, 237);
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+}
+
+a:hover {
+  color: rgb(81, 191, 199);
+  font-weight: bold;
+}
+
+strong {
+  color: rgb(218, 114, 17);
+  font-size: 30px;
+}
+
+h2 {
+  letter-spacing: 2px;
+  font-size: 38pt;
+  padding: 20px 0 0 80px;
+  margin-top: 0;
+  font-family: 'Lakki Reddy', cursive;
+  background-color: rgb(248, 163, 4);
+  color: rgb(29, 29, 29);
+  box-shadow: 0px 4px 5px rgba(12, 71, 71, 0.89);
+}
+
+ul {
+  padding: 10px;
+}
+
+li {
+  font-family: 'Delius', cursive;
+  font-weight: bold;
+}
+
+.reasons {
+  font-size: 22px;
+  margin: 0 50pt 0 70pt;
+  line-height: 40px;
+}
+
+img {
+  width: 400px;
+  height: 280px;
+  margin: 15pt 25pt 15pt 25pt;
+  box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.7);
+}
+
+img:hover {
+  box-shadow: 12px 12px 5px rgba(0, 0, 0, 0.7);  
+}
+
+.pic01 {
+  float: left;
+  margin: 20pt 50pt 0 60pt;
+}
+
+.pic02 {
+  float: right;
+}
+
+figure {
+  margin: 0;
+}
+
+.pic3-4 {
+  margin-left: 12%;
+  padding-bottom: 50pt;
+}
+
+.credit {
+  font-family: 'Voltaire', sans-serif;
+  color: rgb(233, 113, 0);
+  font-size: 28px;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  color: rgb(235, 235, 235);
+  font-size: 18px;
+  margin: 0;
+  padding: 2px 0 2px 0;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+
